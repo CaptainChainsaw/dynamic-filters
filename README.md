@@ -1,4 +1,4 @@
-# User Defined Filters
+# Dynamic Filters
 
 This directive allows you to easily create filters that the user can create themselves.  
 
