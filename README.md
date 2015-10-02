@@ -60,6 +60,12 @@ angular.module('app', ['dynamicFiltersDirective'])
 	});
 ```
 
+# Things to note
+
+If the same option has been selected more than once and then the minus button is clicked to remove one of these filters, all filters using that option will be removed from the filtering of results.
+
+
+
 I hope this is enough to get going with it.  Enjoy!
 
 -CaptainChainsaw
