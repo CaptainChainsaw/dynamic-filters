@@ -1,0 +1,11 @@
+<div data-ng-repeat="filter in filtersArray">
+      <select ng-model="filter.id">
+        <option value="age">Age</option>
+        <option value="customerId">CustomerID</option>
+        <option value="productId">ProductID</option>
+        <option value="name">Name</option>
+      </select>
+      <input type="text" ng-model="searchObject[filter.id]" ng-change="updateFilters(searchObject[filter.id])">
+      <button class="remove" ng-show="$last" ng-click="removeFilter(filter.id)">-</button>
+</div>
+<button ng-click="addFilter()">Add Filter</button>
