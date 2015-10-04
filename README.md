@@ -64,6 +64,11 @@ angular.module('app', ['dynamicFiltersDirective'])
 
 If the same option has been selected more than once and then the minus button is clicked to remove one of these filters, all filters using that option will be removed from the filtering of results.
 
+If you select the same option more than once then the value for all these options will be updated when changing the values.  This is because they use the same model.
+
+# Todo
+
+1 - prevent duplicate options from being selected
 
 
 I hope this is enough to get going with it.  Enjoy!
